@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTml Form TAg -(ii)</title>
+</head>
+<body>
+     <form action="">
+            
+               <!-- Name is important in server type proramming i.e php,.net etc.  -->
+               <!-- If want already text in text  field rhen we use value property in input type -->
+       <label for="">Name:</label> <input type="text" name="fname" placeholder="Enter first name here">  <br> <br>
+       <label for="">Password:</label> <input type="password" name="fname" placeholder="Enter password here"> <br> <br>
+        Gender: &nbsp; <label for="Male">Male</label> <input type="radio" name="Gender" id="Male"> 
+       <label for="FeMale">FeMale</label><input type="radio" name="Gender" id="FeMale" >  
+       <label for="Other">Other</label>Other<input type="radio" name="Gender" id="Other" itemid="Other" >   <br>
+          
+       Hobbies:
+        &nbsp; <label for="Swimming">Swimming</label> <input type="checkbox" id="Swimming"  >
+        &nbsp; <label for="Gardening">Gardening</label> <input type="checkbox" id="Gardening" >
+         <br><br>
+        <label for="">Message:</label>  <br>  <textarea name="" id="" cols="60" rows="10"></textarea>
+
+     
+
+     <label for="">Country</label>
+               <select name="" id="" size=""  >
+
+                <!-- option tag has properties selected -->
+                <!-- If we want that any value autommatically selected then we use selected property in option tag -->
+                  <!-- Anothe property used in option tag which is value     -->
+                  <!-- Value property used with php,.net etc -->
+                  <!-- size value in select tag which is used more values at a time -->
+                  <!-- multiple proerty is used in select tag which is used to select multiple options  -->
+                <option value="Pk" selected>Pak</option>
+                     <option value="ind">Ind</option>
+                     <option value="np">Nepal</option>
+                     <option value="cn">China</option>
+                    </select>      
+
+                    <br><br>
+                  <label for="">Select City</label>
+                  <select name="" id="">
+                      <optgroup label="Fsd">
+                     <option value="">D ground</option>
+                     <option value="">Company bag</option>
+                     <option value="">Abdullah pur</option>
+                    </optgroup>
+
+                    <optgroup label="Lhr">
+                        <option value="">Data sb</option>
+                        <option value="">Badshahi musjid</option>
+                        <option value="">Minare Pakistan</option>
+                       </optgroup> <br><br>
+
+                    </select>
+
+
+                     <br><br>
+                       <!-- Data       List -->
+                       <label for="">Cars</label>   <input list="cars">
+                         <datalist id=cars>
+                             <option value="inova" >
+                             <option value="Honda" >
+                             <option value="Land Cruser" >
+                             <option value="Ferrari" >
+                             <option value="Cultus" >
+                             <option value="Jeep" >
+                            </datalist> 
+
+                            <br><br>
+
+                            <!-- upload file -->
+
+
+                            <!-- it has property accept,which is used for specific formats allowed to upload e.g audio,video  etc and its types like mp3,mp4 
+                            and images like gif etc -->
+
+                            <label for="">Upload file</label>
+                            <input type="file">
+
+ 
+                                  
+
+                                             
+
+
+                 
+
+              
+                </form>
+
+</body>
+</html>
